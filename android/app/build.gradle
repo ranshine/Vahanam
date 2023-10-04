@@ -137,6 +137,10 @@ android {
             resValue "string", "build_config_package", "com.vahanam"
         }
     }
+    compileOptions {
+        sourceCompatibility 11
+        targetCompatibility 11
+    }
 }
 
 dependencies {
